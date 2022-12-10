@@ -14,7 +14,7 @@ HeatMetap is a python-based tool which takes a list of reads as input tagged wit
  - A FASTA file which acts as the reference genome for the organism of interest
  - Corresponding FASTA files which match the 'SRR' column
 
-*The program automatically detects paired-end reads, so suffixes like '_1' are not required in the column.
+*The program automatically detects paired-end reads, so suffixes like '_1' are not required in the column. The file names must also not included file extension. The script automatically parses the file, and can parse fasta files or fasta files compresse with gzip.
 
 #### Usage
 ```sh
@@ -37,3 +37,4 @@ Optional parameters:
 - Folium
 - numpy
 - matplotlib
+
